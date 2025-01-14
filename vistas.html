@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Fuzzy+Bubbles:wght@400;700&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="vistas.css">
+
+</head>
+<body>
+    <header id="ini">
+        <img class="logo" src="vista/Logo.png" alt="Logo">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="Lista.html">MENU</a></li>
+                <li><a href="carrito.html">TIENDA</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="sec1">
+    <span class="lineal"></span>
+    <section class="galeria">
+        <a href="#image1"><img src="ver/cuatro.jpg" alt=""></a>
+        <a href="#image2"><img src="ver/dos.jpg" alt=""></a>
+        <a href="#image3"><img src="ver/ocho.jpg" alt=""></a>
+        <a href="#image4"><img src="ver/seis.jpg" alt=""></a>
+        <a href="#image5"><img src="ver/siete.jpg" alt=""></a>
+        <a href="#image6"><img src="ver/tres.jpg" alt=""></a>
+        <a href="#image7"><img src="ver/uno.jpg" alt=""></a>
+        <a href="#image8"><img src="ver/cinco.jpg" alt=""></a>
+    
+    
+    </section>
+
+    <article class="light-box" id="image1">
+        <a href="#image6" class="next"><i class="fa-regular fa-arrow-left-from-line"></i></a>
+        <img src="ver/cuatro.jpg" alt="">
+        <a href="#image2" class="next"><i class="fa-solid fa-arrow-right-from-line"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image2">
+        <a href="#image1" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="ver/dos.jpg" alt="">
+        <a href="#image3" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="image3">
+        <a href="#image2" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="ver/ocho.jpg" alt="">
+        <a href="#image4" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="image4">
+        <a href="#image3" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="ver/seis.jpg" alt="">
+        <a href="#image5" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image5">
+        <a href="#image4" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="ver/siete.jpg" alt="">
+        <a href="#image6" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="image6">
+        <a href="#image5" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="ver/tres.jpg" alt="">
+        <a href="#image7" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="image7">
+        <a href="#image6" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="ver/uno.jpg" alt="">
+        <a href="#image8" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+    <article class="light-box" id="image8">
+        <a href="#image7" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="ver/cinco.jpg" alt="">
+        <a href="#image1" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+<script src="http://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+    </section>
+    <script src="menu.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="carrito.css">
+</head>
+<body>
+    <header id="ini">
+        <img class="logo" src="vista/Logo.png" alt="Logo">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="Lista.html">MENU</a></li>
+                <li><a href="vistas.html">VISTAS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="sec1">
+    <main>
+        <section class="product-menu">
+            <!-- 10 productos cards-->
+             <div class="product-card" data-name="Bandeja Rejilla" data-price="42.22">
+             <!-- Imagen--><img src="carrito/bandeja-de-rejilla-obo-bettermann.jpg" alt="Bandeja Rejilla">
+              <h2>Bandeja Rejilla</h2>
+              <p class="price">$42.22</p>
+              <button onclick="addToCart(this)">Compra</button>
+             </div>
+             <!--Segunda imagen-->
+             <div class="product-card" data-name="Cable Cat3" data-price="23.00">
+                <!-- Imagen --><img src="carrito/cable-multipar-telefonico-utp-25-pares-cat3-.jpg" alt="Cable Cat3">
+                 <h2>Cable Cat3</h2>
+                 <p class="price">$23.00</p>
+                 <button onclick="addtoCart(this)">Compra</button>
+                </div>
+             <!--tres imagenes-->
+             <div class="product-card" data-name="Cable Coaxial" data-price="100.00">
+                <!-- Imagen--><img src="carrito/coaxial-rg-58-nucleo-solido-90-malla-de-cobre.jpg" alt="Cable Coaxial">
+                 <h2>Cable Coaxial</h2>
+                 <p class="price">$100.00</p>
+                 <button onclick="addToCart(this)">Compra</button>
+                </div>
+            <!--Cuarta imagen-->
+            <div class="product-card" data-name="Conector" data-price="25.00">
+                <!-- Imagen--><img src="carrito/conector.jpg" alt="Conector">
+                 <h2>Conector</h2>
+                 <p class="price">$25.00</p>
+                 <button onclick="addToCart(this)">Compra</button>
+                </div>
+                <!--quinta imagen-->
+                <div class="product-card" data-name="Ordenador Horizontal" data-price="2700.00">
+                    <!-- Imagen--><img src="carrito/ordenador horizontal.jpg" alt="Ordenador Horizontal">
+                     <h2> Ordenador Horizontal</h2>
+                     <p class="price">$590.00</p>
+                     <button onclick="addToCart(this)">Compra</button>
+                    </div>
+                <!--Sexta imagen-->
+                <div class="product-card" data-name="Ordenador Vertical" data-price="1470.00">
+                    <!-- Imagen --><img src="carrito/ordenador vertical frontal.jpg" alt="Ordenador Vertical">
+                     <h2>Ordenador Vertical</h2>
+                     <p class="price">$1470.00</p>
+                     <button onclick="addToCart(this)">Compra</button>
+                    </div>
+                <!--Septima imagen-->
+                <div class="product-card" data-name="Cable Cat 5" data-price="235.00">
+                    <!-- Imagen --><img src="carrito/patch-cord-utp-rj-45-cat-5e.jpg" alt="Cable Cat 5">
+                     <h2>Cable Cat 5</h2>
+                     <p class="price">$235.00</p>
+                     <button onclick="addToCart(this)">Compra</button>
+                    </div>
+                <!--Octava imagen-->
+                <div class="product-card" data-name="Cable Cat 6" data-price="240.00">
+                    <!-- Imagen--><img src="carrito/patch-cords-utp-cat-6.jpg" alt="Cable Cat 6">
+                     <h2>Cable Cat 6 </h2>
+                     <p class="price">$240.00</p>
+                     <button onclick="addToCart(this)">Compra</button>
+                    </div>
+                <!--Novena Imagen-->
+                <div class="product-card" data-name="Placa de 1 puerto" data-price="32.00">
+                    <!-- Imagen del primer producto--><img src="carrito/placa-ejecutiva-vertical-1-puerto.jpg "alt="Placa de 1 puerto">
+                     <h2>Placa de 1 puerto</h2>
+                     <p class="price">$32.00</p>
+                     <button onclick="addToCart(this)">Compra</button>
+                    </div>
+                <!--decima imagen-->
+                <div class="product-card" data-name="Rack de pared" data-price="5300.00">
+                    <!-- Imagen del primer producto--><img src="carrito/rack-de-pared-4ur-30cm.jpg" alt="Rack de pared">
+                     <h2>Rack de pared</h2>
+                     <p class="price">$5300.00</p>
+                     <button onclick="addToCart(this)">Compra</button>
+                    </div>
+                <!--onceaba imagen-->
+                <div class="product-card" data-name="Rack de piso" data-price="7000.00">
+                    <!-- Imagen del primer producto--><img src="carrito/rack-de-piso-34-ur-150mts.jpg" alt="Rack de piso">
+                     <h2>Rack de piso</h2>
+                     <p class="price">$7000.00</p>
+                     <button onclick="addToCart(this)">Compra</button>
+                    </div>
+                <!--doceaba imagen-->
+                <div class="product-card" data-name="Puerto de dos conectores" data-price="80.00">
+                    <!-- Imagen del primer producto--><img src="carrito/roseta-adosable-1-puerto.jpg" alt="Puerto de dos conectores">
+                     <h2>Puerto de dos conectores</h2>
+                     <p class="price">$80.00</p>
+                     <button onclick="addToCart(this)">Compra</button>
+                    </div>
+            </div>
+        </section>
+
+        <!--Corro de compras-->
+        <section class="shopping-cart">
+            <h2>Carrito de compras</h2>
+            <ul id="cart-items"></ul>
+            <p id="total-price">Total: $0.00</p>
+            <center><button onclick="checkout()">Verificar</button></center>
+        </section>
+    </main>
+    </section>
+
+    <script src="menu.js"></script>
+    <script src="carrito.js"></script>
+</body>
+</html>

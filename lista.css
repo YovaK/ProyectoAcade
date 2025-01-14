@@ -1,0 +1,64 @@
+/*Stilos generales*/
+
+
+
+
+/*stilos del productos*/
+.product-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.product-card{
+    background-color: rgb(46, 91, 213);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h2{
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.product-card .price{
+    font-weight: bold;
+    color: #68f8c8;
+}
+
+.product-card button{
+    padding: 0.5rem 1rem;
+    background-color: #1a1b65;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-card button:hover{
+    background-color: #0e9caf;
+}
+
+.product-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*responsive desing*/
+@media (max-width: 768px){
+    .product-card{
+        width: 100%;
+    }
+}
